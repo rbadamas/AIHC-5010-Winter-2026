@@ -213,7 +213,7 @@ def main():
         upsert_leaderboard(leaderboard_csv, record)
 
     if args.make_site:
-        run([sys.executable, "leaderboard/make_site.py"], cwd=Path.cwd())
+        run([sys.executable, "make_site.py"], cwd=Path.cwd())
         print("Site rebuilt (docs/index.html).")
 
     print(f"Done. Leaderboard: {leaderboard_csv}")

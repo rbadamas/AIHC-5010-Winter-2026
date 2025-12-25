@@ -28,5 +28,5 @@ python batch_score_submissions.py \
   --hidden-labels ../scripts/data/private/hidden_labels.csv \
   --train-path ../scripts/data/public/train.csv \
   --dev-path   ../scripts/data/public/dev.csv \
-  --workdir "$(pwd)/faculty_workdir"
+  --workdir "$(pwd)/faculty_workdir" --make-site
 
